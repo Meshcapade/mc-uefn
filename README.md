@@ -5,7 +5,7 @@ remove this once the page is actually live
 <p class='hidden'>For a better viewing experience, visit our <a href='https://me.meshcapade.com/integrations/uefn'>webpage</a>.</p>
 -->
 
-This plugin allows you to quickly transfer the motions you create using Meshcapade technology onto Fortnite Characters in [Unreal Editor for Fortnite](https://store.epicgames.com/en-US/p/fortnite--uefn).  You can create motions on the [Meshcapade.me](https://me.meshcapade.com/) platform or using our [API](https://meshcapade.com/docs/api). Bodies created by Meshcapade are created using the [SMPL](https://smpl.is.tue.mpg.de/) core technology, and are thus referred to as [SMPL-bodies](https://smpl.is.tue.mpg.de/license.html).
+This plugin allows you to quickly transfer the motions you create using Meshcapade technology onto Fortnite Characters in [Unreal Editor for Fortnite](https://store.epicgames.com/en-US/p/fortnite--uefn).  You can create motions on the [Meshcapade.me](https://me.meshcapade.com/) platform or using our [API](https://meshcapade.com/docs/api). Bodies created by Meshcapade are created using the [SMPL](https://smpl.is.tue.mpg.de/) core technology and are thus referred to as [SMPL-bodies](https://smpl.is.tue.mpg.de/license.html).
 
 This plugin was developed in Fortnite 29.20 (Unreal Engine: 5.4.0).  Unreal Engine for Fortnite is currently in Beta.
 
@@ -14,7 +14,7 @@ This plugin was developed in Fortnite 29.20 (Unreal Engine: 5.4.0).  Unreal Engi
 
 [Download](https://github.com/Meshcapade/mc-uefn/releases/latest/download/mc-uefn.zip) the UEFN plugin directly, or grab from our [git repo](https://github.com/Meshcapade/mc-uefn).
 
-Once you have the plugin downloaded, unzip the plugin and put it into the `Content` folder of your UEFN project.
+Once you have downloaded the plugin, unzip it and put it into the `Content` folder of your UEFN project.
 
 ![adding plugins to unreal project](images/readme_add_to_project.gif) 
 
@@ -69,14 +69,14 @@ In UEFN, the process of transferring an animation from one character to another 
 
 ### A. Using the Retargeter
 
-To retarget an animaiton from a SMPL-body onto a Fortnite character, right click on an animation and choose `Retarget Animations`
+To retarget an animation from a SMPL-body onto a Fortnite character, right-click an animation and choose `Retarget Animations`
 
 ![retargeting00](images/readme_retargeting00.png)
 
 To use our retargeter:
 - Uncheck `Auto Generate Retargeter`
 - Change the Retarget Asset to `RTG_Meshcapade_to_FN`
-- Double click the animation you'd like to retarget (`AS_Soccer` in this example)
+- Double-click the animation you'd like to retarget (`AS_Soccer` in this example)
 - Then select `Export Animations`
 
 ![retargeting01](images/readme_retargeting01.png)
