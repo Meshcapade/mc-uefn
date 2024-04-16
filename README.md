@@ -17,6 +17,7 @@ This plugin was developed in Fortnite 29.20 (Unreal Engine: 5.4.0).  Unreal Engi
 Once you have downloaded the plugin, unzip it and put it into the `Content` folder of your UEFN project.
 
 ![adding plugins to unreal project](images/readme_add_to_project.gif) 
+</details>
 
 <details>
 <summary>II. Getting an animation from <a href='https://me.meshcapade.com' target='_blank'>Meshcapade.me</a></summary>
