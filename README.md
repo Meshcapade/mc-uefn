@@ -12,9 +12,9 @@ This plugin was developed in Fortnite 29.20 (Unreal Engine: 5.4.0).  Unreal Engi
 <details open>
 <summary>I. Adding the plugin to your UEFN project</summary>
 
-[Download](https://github.com/Meshcapade/mc-uefn/releases/latest/download/mc-uefn.zip) the UEFN directly, or grab from our [git repo](https://github.com/Meshcapade/mc-uefn).
+[Download](https://github.com/Meshcapade/mc-uefn/releases/latest/download/mc-uefn.zip) the UEFN plugin directly, or grab from our [git repo](https://github.com/Meshcapade/mc-uefn).
 
-Once you have the plugin downloaded, unzip the plugin and put the `Content` folder of your UEFN project.
+Once you have the plugin downloaded, unzip the plugin and put it into the `Content` folder of your UEFN project.
 
 ![adding plugins to unreal project](images/readme_add_to_project.gif) 
 
