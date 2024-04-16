@@ -5,7 +5,7 @@ remove this once the page is actually live
 <p class='hidden'>For a better viewing experience, visit our <a href='https://me.meshcapade.com/integrations/uefn'>webpage</a>.</p>
 -->
 
-This plugin allows you to quickly retarget motions created on the [Meshcapade.me](https://me.meshcapade.com/) platform onto your own characters in [Unreal Editor for Fortnite](https://store.epicgames.com/en-US/p/fortnite--uefn). Bodies created on the Meshcapade platform are created using the [SMPL](https://smpl.is.tue.mpg.de/) core technology, and are thus referred to as [SMPL-bodies](https://smpl.is.tue.mpg.de/license.html).
+This plugin allows you to quickly transfer the motions you create using Meshcapade technology onto Fortnite Characters in [Unreal Editor for Fortnite](https://store.epicgames.com/en-US/p/fortnite--uefn).  You can create motions on the [Meshcapade.me](https://me.meshcapade.com/) platform or using our [API](https://meshcapade.com/docs/api). Bodies created by Meshcapade are created using the [SMPL](https://smpl.is.tue.mpg.de/) core technology, and are thus referred to as [SMPL-bodies](https://smpl.is.tue.mpg.de/license.html).
 
 This plugin was developed in Fortnite 29.20 (Unreal Engine: 5.4.0).  Unreal Engine for Fortnite is currently in Beta.
 
@@ -25,6 +25,8 @@ Currently, there are two ways to get animations from [Meshcapade.me](https://me.
 - [Motion from video](https://me.meshcapade.com/from-videos) - extract the human motion from a video.
 
 - [Motion from text](https://me.meshcapade.com/editor) - find a human motion in our library of thousands of motions.
+
+📝 To use either of these methods, you must create an account and be logged in.
 
 ### A. [Motion from video](https://me.meshcapade.com/from-videos)
 To get an animation from a video, visit the Meshcapade [motion from video](https://me.meshcapade.com/from-videos) page.  Follow the prompts until you've created an animated avatar.
@@ -63,7 +65,7 @@ Set the skeleton to `SK_MeshcapadeBody`.
 <details>
 <summary>V. Retargeting the animation</summary>
 
-In UEFN, the process of transferring an animation from one character to another is called retargeting.  This plugin comes with a SMPL-body to Fortnite retargeter.
+In UEFN, the process of transferring an animation from one character to another is called retargeting.  This plugin comes with assets for retargeting from the SMPL-body to Fortnite characters.
 
 ### A. Using the Retargeter
 
